@@ -1,0 +1,18 @@
+p {
+    color: green;
+}
+
+.zindua .heading {
+    text-align: center;
+    color: red;
+}
+
+.zindua .intro h1{
+    color: blue;
+    text-align: center;
+}
+
+.zindua .intro p{
+    color: blue;
+    text-align: center;
+}
