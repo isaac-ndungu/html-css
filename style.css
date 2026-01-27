@@ -1,10 +1,32 @@
-p {
-    color: green;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+
+}
+#nav-bar {
+    background-color: black;
+}
+
+#nav-bar ul {
+    list-style: none;
+
+}
+
+#nav-bar ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 .zindua .heading {
     text-align: center;
     color: red;
+}
+.zindua .heading::before {
+    content: "";
 }
 
 .zindua .intro h1{
@@ -15,4 +37,25 @@ p {
 .zindua .intro p{
     color: blue;
     text-align: center;
+}
+
+a[target="_blank"] {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+a[target="_blank"]:hover {
+    background-color: yellow;
+    color: black;
+}
+
+a[target="_blank"]:active {
+    transform:  scale(0.95);
+    color: green;
+}
+
+a[target="_blank"]:visited {
+    background-color: orange;
 }
