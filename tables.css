@@ -1,0 +1,17 @@
+body {
+    padding: 10px;
+}
+
+.sales {
+    border: 2px solid black;
+    width: 80%;
+    border-radius: 10px;
+}
+
+td {
+    border: 1px solid black;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    border-collapse: separate;
+}
